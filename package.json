@@ -1,0 +1,15 @@
+{
+  "name": "qms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local quality management workspace for nonconformities, documents, and audits.",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  }
+}
